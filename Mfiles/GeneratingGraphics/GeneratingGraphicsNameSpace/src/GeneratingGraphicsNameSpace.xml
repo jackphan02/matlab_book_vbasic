@@ -1,0 +1,1178 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GeneratingGraphicsNameSpace</name>
+    </assembly>
+    <members>
+        <member name="T:GeneratingGraphicsNameSpace.GeneratingGraphicsClass">
+            <summary>
+            The GeneratingGraphicsClass class provides a CLS compliant, MWArray interface to
+            the M-functions contained in the files:
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\GeneratingGraphics\multiPlotForArrays.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\GeneratingGraphics\multiPlotForFuncs.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\GeneratingGraphics\mytextread.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\GeneratingGraphics\simplePlot.m
+            <newpara></newpara>
+            deployprint.m
+            <newpara></newpara>
+            printdlg.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Component Runtime
+            instance.
+            </summary>
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.#ctor">
+            <summary>
+            Constructs a new instance of the GeneratingGraphicsClass class.
+            </summary>
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="t">Input argument #1</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 3-input MWArrayinterface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 4-input MWArrayinterface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 5-input MWArrayinterface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+             <param name="y4">Input argument #5</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 6-input MWArrayinterface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+             <param name="y4">Input argument #5</param>
+             <param name="strTitle">Input argument #6</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 7-input MWArrayinterface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+             <param name="y4">Input argument #5</param>
+             <param name="strTitle">Input argument #6</param>
+             <param name="strxlabel">Input argument #7</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 8-input MWArrayinterface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+             <param name="y4">Input argument #5</param>
+             <param name="strTitle">Input argument #6</param>
+             <param name="strxlabel">Input argument #7</param>
+             <param name="strylabel">Input argument #8</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+             <param name="y4">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 6-input MWArray interface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+             <param name="y4">Input argument #5</param>
+             <param name="strTitle">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 7-input MWArray interface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+             <param name="y4">Input argument #5</param>
+             <param name="strTitle">Input argument #6</param>
+             <param name="strxlabel">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForArrays(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 8-input MWArray interface to the multiPlotForArrays
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             title('Figure Legends') ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y1">Input argument #2</param>
+             <param name="y2">Input argument #3</param>
+             <param name="y3">Input argument #4</param>
+             <param name="y4">Input argument #5</param>
+             <param name="strTitle">Input argument #6</param>
+             <param name="strxlabel">Input argument #7</param>
+             <param name="strylabel">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 3-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 4-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 5-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 6-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 7-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 8-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 9-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+             <param name="markerPlot3">Input argument #9</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 10-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+             <param name="markerPlot3">Input argument #9</param>
+             <param name="strTitle">Input argument #10</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 11-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+             <param name="markerPlot3">Input argument #9</param>
+             <param name="strTitle">Input argument #10</param>
+             <param name="strxlabel">Input argument #11</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 12-input MWArrayinterface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+             <param name="markerPlot3">Input argument #9</param>
+             <param name="strTitle">Input argument #10</param>
+             <param name="strxlabel">Input argument #11</param>
+             <param name="strylabel">Input argument #12</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 6-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 7-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 8-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 9-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+             <param name="markerPlot3">Input argument #9</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 10-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+             <param name="markerPlot3">Input argument #9</param>
+             <param name="strTitle">Input argument #10</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 11-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+             <param name="markerPlot3">Input argument #9</param>
+             <param name="strTitle">Input argument #10</param>
+             <param name="strxlabel">Input argument #11</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.multiPlotForFuncs(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 12-input MWArray interface to the multiPlotForFuncs
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             y1 = cos(t)           ;
+             y2 = cos(t + pi/3)    ;
+             y3 = cos(t + 2*pi/3)  ;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strPlot1">Input argument #1</param>
+             <param name="colorPlot1">Input argument #2</param>
+             <param name="markerPlot1">Input argument #3</param>
+             <param name="strPlot2">Input argument #4</param>
+             <param name="colorPlot2">Input argument #5</param>
+             <param name="markerPlot2">Input argument #6</param>
+             <param name="strPlot3">Input argument #7</param>
+             <param name="colorPlot3">Input argument #8</param>
+             <param name="markerPlot3">Input argument #9</param>
+             <param name="strTitle">Input argument #10</param>
+             <param name="strxlabel">Input argument #11</param>
+             <param name="strylabel">Input argument #12</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.mytextread">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the mytextread M-function.
+             </summary>
+             <remarks>
+             </remarks>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.mytextread(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the mytextread M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="fileName">Input argument #1</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.mytextread(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the mytextread M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="fileName">Input argument #1</param>
+             <param name="colNum">Input argument #2</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.mytextread(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 3-input MWArrayinterface to the mytextread M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="fileName">Input argument #1</param>
+             <param name="colNum">Input argument #2</param>
+             <param name="mydelimiter">Input argument #3</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.mytextread(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the mytextread M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.mytextread(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the mytextread M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fileName">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.mytextread(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the mytextread M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fileName">Input argument #1</param>
+             <param name="colNum">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.mytextread(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the mytextread M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fileName">Input argument #1</param>
+             <param name="colNum">Input argument #2</param>
+             <param name="mydelimiter">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.mytextread(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the mytextread function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.simplePlot">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the simplePlot M-function.
+             </summary>
+             <remarks>
+             </remarks>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.simplePlot(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the simplePlot M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="x">Input argument #1</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.simplePlot(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the simplePlot M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.simplePlot(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 3-input MWArrayinterface to the simplePlot M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="strColor">Input argument #3</param>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.simplePlot(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the simplePlot M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.simplePlot(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the simplePlot M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.simplePlot(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the simplePlot M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.simplePlot(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the simplePlot M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="strColor">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:GeneratingGraphicsNameSpace.GeneratingGraphicsClass.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+        <member name="T:MathWorks.MATLAB.NET.ComponentData.MCRComponentState">
+            <summary>
+            The MCR Component State
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_name_data">
+            <summary>
+            The .NET Builder component name
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_root_data">
+            <summary>
+            The component root data
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_public_data">
+            <summary>
+            The public encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_session_data">
+            <summary>
+            The session encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_matlabpath_data">
+            <summary>
+            The MATLAB path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_matlabpath_data_count">
+            <summary>
+            The MATLAB path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_classpath_data">
+            <summary>
+            The class path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_classpath_data_count">
+            <summary>
+            The class path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_libpath_data">
+            <summary>
+            The lib path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_libpath_data_count">
+            <summary>
+            The lib path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_mcr_application_options">
+            <summary>
+            The MCR application options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_mcr_application_option_count">
+            <summary>
+            The MCR application options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_mcr_runtime_options">
+            <summary>
+            The MCR runtime options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_mcr_runtime_option_count">
+            <summary>
+            The MCR runtime options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_mcr_pref_dir">
+            <summary>
+            The component preferences directory
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_set_warning_state">
+            <summary>
+            Runtime warning states
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_GeneratingGraphicsNameSpace_set_warning_state_count">
+            <summary>
+            Runtime warning state count
+            </summary>
+        </member>
+    </members>
+</doc>

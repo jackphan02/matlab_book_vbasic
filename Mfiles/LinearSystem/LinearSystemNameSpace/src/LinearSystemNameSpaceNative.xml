@@ -1,0 +1,846 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LinearSystemNameSpaceNative</name>
+    </assembly>
+    <members>
+        <member name="T:LinearSystemNameSpaceNative.LinearSystem">
+            <summary>
+            The LinearSystem class provides a CLS compliant, Object (native) interface to the
+            M-functions contained in the files:
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\LinearSystem\mydiag.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\LinearSystem\myextractmatrix.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\LinearSystem\myfull.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\LinearSystem\mylu.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\LinearSystem\mymldivide.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\LinearSystem\mymrdivide.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\LinearSystem\mysparse.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\LinearSystem\myspdiags.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\LinearSystem\mytranspose.m
+            <newpara></newpara>
+            deployprint.m
+            <newpara></newpara>
+            printdlg.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Component Runtime
+            instance.
+            </summary>
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.#ctor">
+            <summary>
+            Constructs a new instance of the LinearSystem class.
+            </summary>
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mydiag">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mydiag M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mydiag(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mydiag M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="v">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mydiag(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the mydiag M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="v">Input argument #1</param>
+             <param name="k">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mydiag(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mydiag M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mydiag(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mydiag M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="v">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mydiag(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the mydiag M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="v">Input argument #1</param>
+             <param name="k">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the myextractmatrix
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the myextractmatrix
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="A">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the myextractmatrix
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="A">Input argument #1</param>
+             <param name="rowa">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the myextractmatrix
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="A">Input argument #1</param>
+             <param name="rowa">Input argument #2</param>
+             <param name="rowb">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the myextractmatrix
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="A">Input argument #1</param>
+             <param name="rowa">Input argument #2</param>
+             <param name="rowb">Input argument #3</param>
+             <param name="cola">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 5-input Objectinterface to the myextractmatrix
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="A">Input argument #1</param>
+             <param name="rowa">Input argument #2</param>
+             <param name="rowb">Input argument #3</param>
+             <param name="cola">Input argument #4</param>
+             <param name="colb">Input argument #5</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the myextractmatrix M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the myextractmatrix M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the myextractmatrix M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <param name="rowa">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the myextractmatrix M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <param name="rowa">Input argument #2</param>
+             <param name="rowb">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the myextractmatrix M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <param name="rowa">Input argument #2</param>
+             <param name="rowb">Input argument #3</param>
+             <param name="cola">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myextractmatrix(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 5-input Object interface to the myextractmatrix M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             extract from row a to row b, and from col a to col b</remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <param name="rowa">Input argument #2</param>
+             <param name="rowb">Input argument #3</param>
+             <param name="cola">Input argument #4</param>
+             <param name="colb">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myfull">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the myfull M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myfull(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the myfull M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="S">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myfull(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the myfull M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myfull(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the myfull M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="S">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mylu">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mylu M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mylu(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mylu M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="A">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mylu(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mylu M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mylu(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mylu M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymldivide">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mymldivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation Ax = b 
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymldivide(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mymldivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation Ax = b 
+             </remarks>
+             <param name="A">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymldivide(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the mymldivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation Ax = b 
+             </remarks>
+             <param name="A">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymldivide(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mymldivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation Ax = b 
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymldivide(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mymldivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation Ax = b 
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymldivide(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the mymldivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation Ax = b 
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymrdivide">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mymrdivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation xA = b ==> 
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymrdivide(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mymrdivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation xA = b ==> 
+             </remarks>
+             <param name="A">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymrdivide(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the mymrdivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation xA = b ==> 
+             </remarks>
+             <param name="A">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymrdivide(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mymrdivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation xA = b ==> 
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymrdivide(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mymrdivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation xA = b ==> 
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mymrdivide(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the mymrdivide M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             solve equation xA = b ==> 
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mysparse">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mysparse M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mysparse(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mysparse M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="A">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mysparse(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mysparse M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mysparse(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mysparse M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="A">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="B">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="B">Input argument #1</param>
+             <param name="d">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="B">Input argument #1</param>
+             <param name="d">Input argument #2</param>
+             <param name="m">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="B">Input argument #1</param>
+             <param name="d">Input argument #2</param>
+             <param name="m">Input argument #3</param>
+             <param name="n">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="B">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="B">Input argument #1</param>
+             <param name="d">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="B">Input argument #1</param>
+             <param name="d">Input argument #2</param>
+             <param name="m">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.myspdiags(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the myspdiags M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="B">Input argument #1</param>
+             <param name="d">Input argument #2</param>
+             <param name="m">Input argument #3</param>
+             <param name="n">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mytranspose">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mytranspose M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mytranspose(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mytranspose M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mytranspose(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mytranspose M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.mytranspose(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mytranspose M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:LinearSystemNameSpaceNative.LinearSystem.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+        <member name="T:MathWorks.MATLAB.NET.ComponentData.MCRComponentState">
+            <summary>
+            The MCR Component State
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_name_data">
+            <summary>
+            The .NET Builder component name
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_root_data">
+            <summary>
+            The component root data
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_public_data">
+            <summary>
+            The public encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_session_data">
+            <summary>
+            The session encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_matlabpath_data">
+            <summary>
+            The MATLAB path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_matlabpath_data_count">
+            <summary>
+            The MATLAB path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_classpath_data">
+            <summary>
+            The class path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_classpath_data_count">
+            <summary>
+            The class path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_libpath_data">
+            <summary>
+            The lib path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_libpath_data_count">
+            <summary>
+            The lib path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_mcr_application_options">
+            <summary>
+            The MCR application options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_mcr_application_option_count">
+            <summary>
+            The MCR application options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_mcr_runtime_options">
+            <summary>
+            The MCR runtime options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_mcr_runtime_option_count">
+            <summary>
+            The MCR runtime options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_mcr_pref_dir">
+            <summary>
+            The component preferences directory
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_set_warning_state">
+            <summary>
+            Runtime warning states
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_LinearSystemNameSpace_set_warning_state_count">
+            <summary>
+            Runtime warning state count
+            </summary>
+        </member>
+    </members>
+</doc>

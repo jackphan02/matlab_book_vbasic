@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MatrixComputationsNameSpaceNative</name>
+    </assembly>
+    <members>
+        <member name="T:MatrixComputationsNameSpaceNative.MatrixComputations">
+            <summary>
+            The MatrixComputations class provides a CLS compliant, Object (native) interface to
+            the M-functions contained in the files:
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\MatrixComputations\mydet.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\MatrixComputations\myinv.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\MatrixComputations\myminus.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\MatrixComputations\mymtimes.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\MatrixComputations\myplus.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\MatrixComputations\mytranspose.m
+            <newpara></newpara>
+            deployprint.m
+            <newpara></newpara>
+            printdlg.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Component Runtime
+            instance.
+            </summary>
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.#ctor">
+            <summary>
+            Constructs a new instance of the MatrixComputations class.
+            </summary>
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mydet">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mydet M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mydet(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mydet M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="a">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mydet(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mydet M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mydet(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mydet M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="a">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myinv">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the myinv M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myinv(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the myinv M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="a">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myinv(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the myinv M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myinv(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the myinv M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="a">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myminus">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the myminus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myminus(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the myminus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="a">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myminus(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the myminus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="a">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myminus(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the myminus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myminus(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the myminus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="a">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myminus(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the myminus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="a">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mymtimes">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mymtimes M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mymtimes(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mymtimes M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="a">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mymtimes(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the mymtimes M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="a">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mymtimes(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mymtimes M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mymtimes(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mymtimes M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="a">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mymtimes(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the mymtimes M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="a">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myplus">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the myplus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myplus(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the myplus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="a">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myplus(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the myplus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="a">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myplus(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the myplus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myplus(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the myplus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="a">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.myplus(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the myplus M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="a">Input argument #1</param>
+             <param name="b">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mytranspose">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mytranspose M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mytranspose(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mytranspose M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="x">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mytranspose(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mytranspose M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.mytranspose(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mytranspose M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="x">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatrixComputationsNameSpaceNative.MatrixComputations.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+        <member name="T:MathWorks.MATLAB.NET.ComponentData.MCRComponentState">
+            <summary>
+            The MCR Component State
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_name_data">
+            <summary>
+            The .NET Builder component name
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_root_data">
+            <summary>
+            The component root data
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_public_data">
+            <summary>
+            The public encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_session_data">
+            <summary>
+            The session encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_matlabpath_data">
+            <summary>
+            The MATLAB path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_matlabpath_data_count">
+            <summary>
+            The MATLAB path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_classpath_data">
+            <summary>
+            The class path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_classpath_data_count">
+            <summary>
+            The class path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_libpath_data">
+            <summary>
+            The lib path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_libpath_data_count">
+            <summary>
+            The lib path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_mcr_application_options">
+            <summary>
+            The MCR application options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_mcr_application_option_count">
+            <summary>
+            The MCR application options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_mcr_runtime_options">
+            <summary>
+            The MCR runtime options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_mcr_runtime_option_count">
+            <summary>
+            The MCR runtime options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_mcr_pref_dir">
+            <summary>
+            The component preferences directory
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_set_warning_state">
+            <summary>
+            Runtime warning states
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_MatrixComputationsNameSpace_set_warning_state_count">
+            <summary>
+            Runtime warning state count
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,56 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "mwcomtypes.idl";
+
+[
+  object,
+  uuid("C0BB0E78-926D-4BFC-8FD9-00E1FA8E8787"),
+  dual,
+  helpstring("ICOMLinear Interface"),
+  pointer_default(unique)
+]
+interface ICOMLinear : IDispatch
+{
+  [propget, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([out, retval] IMWFlags** ppvFlags);
+  [propput, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([in] IMWFlags* pvFlags);
+
+  [id(2), helpstring("Method mylu")]
+  HRESULT mylu([in] long nargout, [in,out] VARIANT* L, [in,out] VARIANT* U, [in,out] 
+               VARIANT* P, [in] VARIANT A);
+
+  [id(3), helpstring("Method mymldivide")]
+  HRESULT mymldivide([in] long nargout, [in,out] VARIANT* x, [in] VARIANT A, [in] VARIANT 
+                     b);
+
+  [id(4), helpstring("Method mymtimes")]
+  HRESULT mymtimes([in] long nargout, [in,out] VARIANT* y, [in] VARIANT a, [in] VARIANT 
+                   b);
+
+  [id(5), helpstring("Method mytranspose")]
+  HRESULT mytranspose([in] long nargout, [in,out] VARIANT* y, [in] VARIANT x);
+
+  [id(6), helpstring("Method MCRWaitForFigures")]
+  HRESULT MCRWaitForFigures();
+};
+[
+  uuid("C3A0FAEC-5857-48CB-B048-E89AE19F5DD4"),
+  version(1.0),
+  helpstring("MATLABCOMLinear 1.0 Type Library")
+]
+library MATLABCOMLinear
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");
+  importlib("mwcomutil.tlb");
+
+  [
+    uuid("7F580A67-2E3F-471A-99B5-05BE15181305"),
+    helpstring("COMLinear Class")
+  ]
+  coclass COMLinear
+  {
+    [default] interface ICOMLinear;
+  };
+};

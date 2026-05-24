@@ -1,0 +1,794 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ODENameSpaceNative</name>
+    </assembly>
+    <members>
+        <member name="T:ODENameSpaceNative.ODE">
+            <summary>
+            The ODE class provides a CLS compliant, Object (native) interface to the
+            M-functions contained in the files:
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\ODE\myode45firstorder.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\ODE\myode45secondorder.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\ODE\myotherode.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\ODE\mysecondfunc.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\ODE\yourfunc.m
+            <newpara></newpara>
+            C:\MatlabVB\Mfiles\ODE\yoursecondfunc.m
+            <newpara></newpara>
+            deployprint.m
+            <newpara></newpara>
+            printdlg.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Component Runtime
+            instance.
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.#ctor">
+            <summary>
+            Constructs a new instance of the ODE class.
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45firstorder">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the myode45firstorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45firstorder(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the myode45firstorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="strfunc">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45firstorder(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the myode45firstorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="strfunc">Input argument #1</param>
+             <param name="tspan">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45firstorder(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the myode45firstorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="strfunc">Input argument #1</param>
+             <param name="tspan">Input argument #2</param>
+             <param name="y0">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45firstorder(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the myode45firstorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45firstorder(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the myode45firstorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strfunc">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45firstorder(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the myode45firstorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strfunc">Input argument #1</param>
+             <param name="tspan">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45firstorder(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the myode45firstorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strfunc">Input argument #1</param>
+             <param name="tspan">Input argument #2</param>
+             <param name="y0">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45secondorder">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the myode45secondorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45secondorder(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the myode45secondorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="strfunc">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45secondorder(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the myode45secondorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="strfunc">Input argument #1</param>
+             <param name="tspan">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45secondorder(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the myode45secondorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="strfunc">Input argument #1</param>
+             <param name="tspan">Input argument #2</param>
+             <param name="y0">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45secondorder(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the myode45secondorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45secondorder(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the myode45secondorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strfunc">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45secondorder(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the myode45secondorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strfunc">Input argument #1</param>
+             <param name="tspan">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myode45secondorder(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the myode45secondorder
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="strfunc">Input argument #1</param>
+             <param name="tspan">Input argument #2</param>
+             <param name="y0">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myotherode">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the myotherode M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myotherode(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the myotherode M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="tspan">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myotherode(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the myotherode M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="tspan">Input argument #1</param>
+             <param name="y0">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myotherode(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the myotherode M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myotherode(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the myotherode M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="tspan">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.myotherode(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the myotherode M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="tspan">Input argument #1</param>
+             <param name="y0">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.mysecondfunc">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the mysecondfunc M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.mysecondfunc(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the mysecondfunc M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.mysecondfunc(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the mysecondfunc M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.mysecondfunc(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the mysecondfunc M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.mysecondfunc(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the mysecondfunc M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.mysecondfunc(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the mysecondfunc M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yourfunc">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the yourfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             trick for a function with/without t, y
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yourfunc(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the yourfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             trick for a function with/without t, y
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yourfunc(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the yourfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             trick for a function with/without t, y
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yourfunc(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the yourfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             trick for a function with/without t, y
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="strfunc">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yourfunc(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the yourfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             trick for a function with/without t, y
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yourfunc(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the yourfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             trick for a function with/without t, y
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yourfunc(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the yourfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             trick for a function with/without t, y
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yourfunc(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the yourfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             trick for a function with/without t, y
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="strfunc">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yoursecondfunc">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the yoursecondfunc
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             example:
+             y'' - 2y' -6y = cos(3t)
+             y'' = cos(3t) + 2y' + 6y 
+             write an expression string with replace y' by yprime:
+             cos(3*t) + 2*yprime + 6*y
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yoursecondfunc(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the yoursecondfunc
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             example:
+             y'' - 2y' -6y = cos(3t)
+             y'' = cos(3t) + 2y' + 6y 
+             write an expression string with replace y' by yprime:
+             cos(3*t) + 2*yprime + 6*y
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yoursecondfunc(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the yoursecondfunc
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             example:
+             y'' - 2y' -6y = cos(3t)
+             y'' = cos(3t) + 2y' + 6y 
+             write an expression string with replace y' by yprime:
+             cos(3*t) + 2*yprime + 6*y
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yoursecondfunc(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the yoursecondfunc
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             example:
+             y'' - 2y' -6y = cos(3t)
+             y'' = cos(3t) + 2y' + 6y 
+             write an expression string with replace y' by yprime:
+             cos(3*t) + 2*yprime + 6*y
+             </remarks>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="strfunc">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yoursecondfunc(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the yoursecondfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             example:
+             y'' - 2y' -6y = cos(3t)
+             y'' = cos(3t) + 2y' + 6y 
+             write an expression string with replace y' by yprime:
+             cos(3*t) + 2*yprime + 6*y
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yoursecondfunc(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the yoursecondfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             example:
+             y'' - 2y' -6y = cos(3t)
+             y'' = cos(3t) + 2y' + 6y 
+             write an expression string with replace y' by yprime:
+             cos(3*t) + 2*yprime + 6*y
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yoursecondfunc(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the yoursecondfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             example:
+             y'' - 2y' -6y = cos(3t)
+             y'' = cos(3t) + 2y' + 6y 
+             write an expression string with replace y' by yprime:
+             cos(3*t) + 2*yprime + 6*y
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.yoursecondfunc(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the yoursecondfunc M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             example:
+             y'' - 2y' -6y = cos(3t)
+             y'' = cos(3t) + 2y' + 6y 
+             write an expression string with replace y' by yprime:
+             cos(3*t) + 2*yprime + 6*y
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="t">Input argument #1</param>
+             <param name="y">Input argument #2</param>
+             <param name="strfunc">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ODENameSpaceNative.ODE.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+        <member name="T:ODENameSpaceNative.Class1">
+            <summary>
+            The Class1 class provides a CLS compliant, Object (native) interface to the
+            M-functions contained in the files:
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:ODENameSpaceNative.Class1.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Component Runtime
+            instance.
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.Class1.#ctor">
+            <summary>
+            Constructs a new instance of the Class1 class.
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.Class1.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.Class1.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.Class1.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:ODENameSpaceNative.Class1.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+        <member name="T:MathWorks.MATLAB.NET.ComponentData.MCRComponentState">
+            <summary>
+            The MCR Component State
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_name_data">
+            <summary>
+            The .NET Builder component name
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_root_data">
+            <summary>
+            The component root data
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_public_data">
+            <summary>
+            The public encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_session_data">
+            <summary>
+            The session encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_matlabpath_data">
+            <summary>
+            The MATLAB path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_matlabpath_data_count">
+            <summary>
+            The MATLAB path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_classpath_data">
+            <summary>
+            The class path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_classpath_data_count">
+            <summary>
+            The class path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_libpath_data">
+            <summary>
+            The lib path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_libpath_data_count">
+            <summary>
+            The lib path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_mcr_application_options">
+            <summary>
+            The MCR application options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_mcr_application_option_count">
+            <summary>
+            The MCR application options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_mcr_runtime_options">
+            <summary>
+            The MCR runtime options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_mcr_runtime_option_count">
+            <summary>
+            The MCR runtime options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_mcr_pref_dir">
+            <summary>
+            The component preferences directory
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_set_warning_state">
+            <summary>
+            Runtime warning states
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_ODENameSpace_set_warning_state_count">
+            <summary>
+            Runtime warning state count
+            </summary>
+        </member>
+    </members>
+</doc>

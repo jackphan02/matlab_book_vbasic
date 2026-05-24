@@ -1,0 +1,44 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "mwcomtypes.idl";
+
+[
+  object,
+  uuid("FF3FFBDC-7A9E-48B4-B396-581BB0AC908C"),
+  dual,
+  helpstring("IMyCOM Interface"),
+  pointer_default(unique)
+]
+interface IMyCOM : IDispatch
+{
+  [propget, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([out, retval] IMWFlags** ppvFlags);
+  [propput, id(1), helpstring("property MWFlags")]
+  HRESULT MWFlags([in] IMWFlags* pvFlags);
+
+  [id(2), helpstring("Method myplus")]
+  HRESULT myplus([in] long nargout, [in,out] VARIANT* y, [in] VARIANT a, [in] VARIANT b);
+
+  [id(3), helpstring("Method MCRWaitForFigures")]
+  HRESULT MCRWaitForFigures();
+};
+[
+  uuid("5A35851A-420D-4D2A-B609-4D303F9FF773"),
+  version(1.0),
+  helpstring("CreateCOM 1.0 Type Library")
+]
+library CreateCOM
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");
+  importlib("mwcomutil.tlb");
+
+  [
+    uuid("714C5238-38A4-48C8-9155-F4E9355151E6"),
+    helpstring("MyCOM Class")
+  ]
+  coclass MyCOM
+  {
+    [default] interface IMyCOM;
+  };
+};
